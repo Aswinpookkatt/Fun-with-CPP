@@ -1,0 +1,35 @@
+/*You have been given an array A of size N consisting of positive integers.
+You need to find and print the product of all the number in this array Modulo 10^9+7.*/
+
+#include <iostream>
+#include<cmath>
+
+using namespace std;
+
+int main() {
+	int i,N;
+	 long long int  ans=1;
+	cin >>N;
+	
+	int ar[N];
+	for(i=0;i<N;i++)
+	{
+	cin>>ar[i];
+	
+	
+	
+}
+int b=int(pow(10.0,9.0)+7);
+	for(i=0;i<N;i++)
+	{
+
+	ans=(ans*(ar[i])%b);
+	
+
+}
+
+	cout<<ans;
+	return 0;
+	// Reading input from STDIN
+	// Writing output to STDOUT
+}
